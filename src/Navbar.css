@@ -1,0 +1,7 @@
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 250px; /* Sidebar genişliği kadar kaydır */
+  width: calc(100% - 250px); /* Sidebar kapladığı alan kadar küçült */
+  z-index: 1001;
+}
