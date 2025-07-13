@@ -3,7 +3,6 @@ import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 
 
-
 export default function Register() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [registerError, setRegisterError] = useState('');
@@ -45,7 +44,8 @@ export default function Register() {
         <div className="login-container">
             <div className="card">
                 <div>
-                    <h2>★</h2>
+                    <h2>Envanter Sistemine Hoşgeldiniz</h2>
+                    <br />
                     <h2>Hesap oluştur</h2>
                 </div>
 
@@ -141,7 +141,7 @@ export default function Register() {
                             <label className="form-check-label text-white" htmlFor="agreeTerms">
                                 <small>
                                     <Link to="/terms" className="text-primary">Kullanım şartlarını</Link> ve{' '}
-                                    <Link to="/privacy" className="text-primary">gizlilik politikasını</Link> kabul ediyorum
+                                    <Link to="/terms" className="text-primary">gizlilik politikasını</Link> kabul ediyorum
                                 </small>
                             </label>
                             {errors.agreeTerms && (

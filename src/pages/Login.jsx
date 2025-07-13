@@ -31,7 +31,8 @@ export default function Login() {
         <div className="login-container">
             <div className="card">
                 <div>
-                    <h2>★</h2>
+                    <h2>Envanter Sistemine Hoşgeldiniz</h2>
+                    <br />
                     <h2>Hesabına giriş yap</h2>
                 </div>
 

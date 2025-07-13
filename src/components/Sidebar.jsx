@@ -6,7 +6,7 @@ export default function Sidebar({ setSelectedPage }) {
   return (
     <div className="d-flex">
       <div className="sidebar bg-dark text-white p-3" style={{ height: "100vh" }}>
-        <h4 className="mb-4 text-center">Envanter</h4>
+        <h4 className="mb-4 text-center">Envanter Sistemi</h4>
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
             <button

@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
                 <div className="container-fluid">
-                    <span className="navbar-brand">Envanter Sistemi</span>
+                    <span className="navbar-brand">Hoşgeldiniz</span>
                     <div className="collapse navbar-collapse justify-content-end">
                         <ul className="navbar-nav">
                             <li className="nav-item">

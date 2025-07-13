@@ -3,6 +3,7 @@ import Product from './pages/Product';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import PrivateRoute from './PrivateRoute';
+import Terms from './pages/terms';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           </PrivateRoute>
         }
       />
+      <Route path="/terms" element={<Terms />} />
     </Routes>
   );
 }
